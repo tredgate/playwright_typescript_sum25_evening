@@ -12,7 +12,7 @@ const subtract = (a: number, b: number) => {
   return result;
 };
 
-function logText(text: string) {
+function logText(text: string): void {
   console.log(`Text: "${text}"`);
 }
 
